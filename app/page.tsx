@@ -53,13 +53,15 @@ const generateAudit = () => {
 
   } else {
 
-    setMonthlySavings(0);
-    setYearlySavings(0);
+    const estimatedSavings = Math.floor(spendAmount * 0.15);
+
+    setMonthlySavings(estimatedSavings);
+    setYearlySavings(estimatedSavings * 12);
 
     setResult(
-      "Your current AI spending appears reasonably optimized."
+      "Your AI spending is fairly optimized, but additional savings may still be possible through smarter plan management and usage optimization."
     );
-  }
+}
 };
 
   return (
