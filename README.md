@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Spend Audit
 
-## Getting Started
+AI Spend Audit is a modern SaaS-style web application that helps businesses and teams analyze AI subscription expenses, identify overspending, and discover smarter cost-saving opportunities.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Deployed on Vercel.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- AI subscription spending analysis
+- Monthly and annual savings estimation
+- Team-based optimization insights
+- Smart AI cost recommendations
+- Responsive modern SaaS UI
+- Real-time audit generation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- Next.js
+- React.js
+- Tailwind CSS
+- JavaScript
 
-To learn more about Next.js, take a look at the following resources:
+## Problem Statement
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Many startups and growing teams overspend on AI tools without tracking actual usage efficiency. This project helps users identify unnecessary AI expenses and optimize subscription plans.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## How It Works
 
-## Deploy on Vercel
+1. Select an AI tool
+2. Enter current plan details
+3. Add monthly spending
+4. Specify team size and use case
+5. Generate AI cost audit
+6. View estimated savings and optimization suggestions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Sample Audit Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ChatGPT plan optimization
+- Cursor pricing analysis
+- GitHub Copilot usage recommendations
+- Team-size-based savings detection
+
+## Future Improvements
+
+- AI-powered recommendation engine
+- PDF report export
+- Multi-tool comparison dashboard
+- Authentication system
+- Database integration
+- Usage analytics charts
+
+## Screenshots
+
+Add screenshots of:
+- Homepage
+- Audit generation
+- Savings results
+
+## Deployment
+
+This project is deployed using Vercel.
+
+## GitHub Repository
+
+https://github.com/Chandrakala2005/ai-spend-audit
+
+## Author
+
+Chandrakala
